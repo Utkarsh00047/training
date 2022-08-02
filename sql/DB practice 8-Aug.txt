@@ -1,0 +1,52 @@
+CREATE TABLE Employee_Personal_Details ( 
+EMPLOYEE_ID int IDENTITY(1,1) NOT NULL PRIMARY KEY, 
+FIRST_NAME varchar(20) DEFAULT NULL, 
+LAST_NAME varchar(25) NOT NULL, 
+EMAIL varchar(100) NOT NULL, 
+PHONE_NUMBER varchar(20) DEFAULT NULL, 
+MARITAL_STATUS varchar(10) NOT NULL, 
+)
+
+use BhavnaCorp
+--Insert into Employee_Personal_Details (EMPLOYEE_ID,FIRST_NAME,LAST_NAME,EMAIL,PHONE_NUMBER,MARITAL_STATUS) values(1,'Utkarsh','Gupta','utkarsh.gupta@bhavnacorp.com','8303006960','single')
+Insert into Employee_Personal_Details (EMPLOYEE_ID,FIRST_NAME,LAST_NAME,EMAIL,PHONE_NUMBER,MARITAL_STATUS) values(2,'EMP2','Last_name','EMP1@bhavnacorp.com','8303006960','single')
+Insert into Employee_Personal_Details (EMPLOYEE_ID,FIRST_NAME,LAST_NAME,EMAIL,PHONE_NUMBER,MARITAL_STATUS) values(3,'EMP3','Last_name','EMP2@bhavnacorp.com','8303006960','single')
+Insert into Employee_Personal_Details (EMPLOYEE_ID,FIRST_NAME,LAST_NAME,EMAIL,PHONE_NUMBER,MARITAL_STATUS) values(4,'EMP4','Last_name','EMP3@bhavnacorp.com','8303006960','single')
+
+select * from Employee_Personal_Details
+Update Employee_Personal_Details set FIRST_NAME='New emp name' where EMPLOYEE_ID=2
+delete from Employee_Personal_Details where EMPLOYEE_ID=3
+
+
+CREATE TABLE Employee_Official_Details (
+ID int IDENTITY(1,1) NOT NULL,
+EMPLOYEE_ID_mapper int NOT NULL, 
+Official_ID varchar(20) DEFAULT NULL,
+COMPANY_EMAIL varchar(100) NOT NULL, 
+)
+
+
+Insert into Employee_Official_Details (EMPLOYEE_ID_mapper,Official_ID,COMPANY_EMAIL) Values (1,'984','utkarsh.gupta@bhavnacorp.com'),
+(2,'985','EMP2@bhavnacorp.com'),
+(3,'986','EMP3@bhavnacorp.com'),
+(4,'987','EMP4@bhavnacorp.com')
+
+select * from Employee_Official_Details
+
+
+
+CREATE TABLE Employee_Salary_Details ( 
+ID int IDENTITY(1,1) NOT NULL,
+EMPLOYEE_ID_mapper int NOT NULL, 
+TOTAL_CTC varchar(20) DEFAULT NULL,
+IN_HAND varchar(20) NOT NULL, 
+PF varchar(20) NOT NULL
+)
+
+insert into Employee_Salary_Details (EMPLOYEE_ID_mapper,TOTAL_CTC,IN_HAND,PF) values(1,'550000','504000','46000'),
+(2,'550000','504000','46000'),
+(3,'550000','504000','46000'),
+(4,'550000','504000','46000')
+
+select * from Employee_Salary_Details
+
