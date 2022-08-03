@@ -1,0 +1,32 @@
+SELECT Cost FROM Product
+UNION
+SELECT Product_id FROM Customer_order;
+
+SELECT ORDER_ID FROM accounts
+Intersect
+SELECT ORDER_ID FROM Customer_order;
+
+
+SELECT P_title
+FROM Product
+WHERE Cost IN (111,112,113);
+
+
+SELECT P_title
+FROM Product
+WHERE Cost BETWEEN 110 AND 119;
+
+
+SELECT P_title FROM Product WHERE Cost IS NULL;
+
+SELECT * FROM Product
+WHERE p_title LIKE 'p%';
+
+SELECT * FROM Product
+WHERE p_title LIKE '%ct%';
+
+
+SELECT Invoice_id
+FROM accounts
+WHERE EXISTS
+(SELECT ORDER_ID FROM Customer_order WHERE ORDER_ID=1);
