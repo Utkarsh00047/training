@@ -83,3 +83,76 @@ AS begin
 select c.id,c.fullname from celeb_name as c left join endorsement as e on c.id = e.celeb_id where e.celeb_id is NULL
 end
 exec not_endorsed_by_celeb
+
+
+create table user_log(
+id bigint PRIMARY KEY,
+operation varchar(50),
+"date" date
+)
+select * from user_log
+
+create trigger BrandInsertTrigger
+  on brand_info
+  for insert
+  as
+  insert into user_log select id,'Record inserted',GETDATE() from inserted
+
+  create trigger BranddeleteTrigger
+  on brand_info
+  for delete
+  as
+  insert into user_log select id,'Record deleted',GETDATE() from inserted
+
+  
+  create trigger BrandupdateTrigger
+  on brand_info
+  for update
+  as
+  insert into user_log select id,'Record update',GETDATE() from inserted
+
+  --celeb
+
+  
+create trigger celebInsertTrigger
+  on celeb_name
+  for insert
+  as
+  insert into user_log select id,'Record inserted',GETDATE() from inserted
+
+  create trigger celebdeleteTrigger
+  on celeb_name
+  for delete
+  as
+  insert into user_log select id,'Record deleted',GETDATE() from inserted
+
+  
+  create trigger celebupdateTrigger
+  on celeb_name
+  for update
+  as
+  insert into user_log select id,'Record update',GETDATE() from inserted
+
+  --endorsement
+create trigger endorsementInsertTrigger
+  on endorsement
+  for insert
+  as
+  insert into user_log select id,'Record inserted',GETDATE() from inserted
+
+  create trigger endorsementdeleteTrigger
+  on endorsement
+  for delete
+  as
+  insert into user_log select id,'Record deleted',GETDATE() from inserted
+
+  
+  create trigger endorsementupdateTrigger
+  on endorsement
+  for update
+  as
+  insert into user_log select id,'Record update',GETDATE() from inserted
+
+
+
+
