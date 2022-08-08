@@ -104,7 +104,7 @@ CREATE TABLE FLIGHTS (
     FOREIGN KEY (packHotelID) REFERENCES HOTELS (hotID) ,
 	);  
 	insert into PACKAGES(packID,packTitle,packLocationID,packHotelID,packDuration,packPrice,packStartDate,packEndDate,packDiscountAmnt,packFlightNo)
-	values (1,'title1',1,1,'10 days',10000,'2000-07-22','2000-07-25',500,1),(2,'title2',2,2,'10 days',10000,'2000-07-20','2000-07-25',500,2)
+	values (1,'title1',1,1,'10 days',10000,'2000-07-22','2000-07-25',500,1),(2,'title2',2,2,'10 days',10000,'2000-07-20','2000-07-25',500,2),(3,'title3',2,2,'10 days',10000,'2000-07-20','2000-07-25',500,2)
 
 	CREATE TABLE BOOKINGS (
 	bookID INTEGER NOT NULL PRIMARY KEY,
@@ -116,13 +116,43 @@ CREATE TABLE FLIGHTS (
 
 	insert into BOOKINGS(bookID,bookCustomerID,bookPackageID) values (1,1,1),(2,2,2)
 
+	create procedure check_package
+		as 
+		select c.packID
+		from PACKAGES as c 
+		inner join BOOKINGS as a
+		on c.packID = a.bookID;
+	
+	EXEC check_package
+
+	create procedure package_booked
+	as 
+	select a.packID from PACKAGES as a
+	inner join BOOKINGS as b
+	on a.packID = b.bookID
+
+	exec package_booked
 
 
 
+	create procedure check_cust_id
+	as
+	select a.custID from CUSTOMERS as a
+	inner join BOOKINGS as  b
+	on a.custID=b.bookID
 
+	EXEC check_cust_id
 
+	create procedure package_not_booked
+	as 
+	select a.packID from PACKAGES as a
+	left join BOOKINGS as b
+	on a.packID = b.bookID where b.bookID is NULL
 
+	exec package_not_booked
 
+	
+	
 
 
 
