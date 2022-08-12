@@ -7,7 +7,18 @@
 
 
 'use strict';
-
+window.onload = function(){
+	document.getElementById('send').onclick = function(e){
+	 var a=document.getElementById("your_email").value;
+	 var b=document.getElementById("your_name").value;
+	 var c=document.getElementById("message").value;
+	 alert(a);
+	 alert('your name is ' +a+'your email is '+b+'your message is '+c);
+	 //    alert(document.getElementById("your_name").value);
+	 //    alert(document.getElementById("your_email").value);
+		return false;
+	}
+}
 
 $(window).on('load', function() {
 	/*------------------
