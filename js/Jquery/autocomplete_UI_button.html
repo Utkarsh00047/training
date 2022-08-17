@@ -1,0 +1,77 @@
+<!doctype html>  
+<html lang="en">  
+<head>  
+  <meta charset="utf-8">  
+  <title>jQuery UI Autocomplete - Default functionality</title>  
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">  
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>  
+  <link rel="stylesheet" href="/resources/demos/style.css">  
+  <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+  <script>  
+  $(function() {  
+    var availableTags = [  
+      "ActionScript",  
+      "AppleScript",  
+      "Asp",  
+      "BASIC",  
+      "C",  
+      "C++",  
+      "Clojure",  
+      "COBOL",  
+      "ColdFusion",  
+      "Erlang",  
+      "Fortran",  
+      "Groovy",  
+      "Haskell",  
+      "Java",  
+      "JavaScript",  
+      "Lisp",  
+      "Perl",  
+      "PHP",  
+      "Python",  
+      "Ruby",  
+      "Scala",  
+      "Scheme"  
+    ];  
+    $( "#tags" ).autocomplete({  
+      source: availableTags  
+    });  
+  });  
+  </script>  
+        <script>  
+          $(function() {  
+             $( "#button-1, #button-2, #button-3, #button-4" ).button();  
+             $( "#button-5" ).buttonset();  
+          });  
+       </script> 
+</head>  
+<body>  
+<section>
+  <div class="ui-widget">  
+    <p>Available Courses:</p>  
+     <label for="tags">Tags: </label>  
+     <input id="tags">  
+   </div>  
+</section>
+<section style="padding-top: 50px;">
+  <button id="button-1">A button element</button>  
+      <input id="button-2" type="submit" value="A submit button">  
+      <a id="button-3" href="">An anchor</a>  
+      <input type="checkbox"  id="button-4" >  
+      <label for="button-4">Toggle</label>  
+      <br><br>  
+      <div id="button-5">  
+         <input type="checkbox" id="check1">  
+         <label for="check1">Left</label>  
+         <input type="checkbox" id="check2">  
+         <label for="check2">Middle</label>  
+         <input type="checkbox" id="check3">  
+         <label for="check3">Right</label>  
+      </div>  
+</section>
+
+</body>  
+</html>  
+
+ 

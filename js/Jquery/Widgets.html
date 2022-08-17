@@ -1,0 +1,214 @@
+<!doctype html>  
+<html lang="en">  
+   <head>  
+      <meta charset="utf-8">  
+      <title>jQuery UI Accordion Example </title>  
+      <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+      <script>  
+         $(function() {  
+            $( "#accordion-5" ).accordion({  
+               disabled: false  
+            });  
+            $("input").each(function () {  
+               $(this).change(function () {  
+                  if ($(this).attr("id") == "disableaccordion") {  
+                     $("#accordion-5").accordion("option", "disabled", true);  
+                  } else {  
+                     $("#accordion-5").accordion("option", "disabled", false);  
+                  }  
+               });  
+            });  
+         });  
+      </script>  
+      <script>  
+       $(function() {  
+                     $( "#datepicker-1" ).datepicker();  
+                  });  
+
+               // dialog
+       $(function() {  
+            $( "#dialog-1" ).dialog({  
+               autoOpen: false,    
+            });  
+            $( "#opener" ).click(function() {  
+               $( "#dialog-1" ).dialog( "open" );  
+            });  
+      $(function() {  
+      $( "#menu-1" ).menu();  
+         });  
+      });  
+      $(function() {  
+            $( "#progressbar-1" ).progressbar({  
+               value: 30  
+            });  
+         }); 
+      $(function() {  
+         $( "#slider-2" ).slider({  
+            value: 60,  
+            animate:"slow",  
+            orientation: "horizontal"  
+         });  
+      }); 
+      $(function() {  
+            $( "#spinner-1" ).spinner();  
+         });  
+         $(function() {  
+            $( "#tabs-1" ).tabs();  
+         });  
+         $(function() {  
+         $("#tooltip-1").tooltip();  
+         $("#tooltip-2").tooltip();  
+         });  
+      </script> 
+      <style>  
+         #accordion-5{font-size: 14px;} 
+         .ui-widget-header,.ui-state-default, ui-button{  
+            background:#b9cd6d;  
+            border: 1px solid #b9cd6d;  
+            color: #FFFFFF;  
+            font-weight: bold;  
+         }   
+         .ui-menu {  
+            width: 200px;  
+         }  
+
+         /* progress bar */
+         .ui-widget-header {  
+            background: blue;  
+            border: 1px solid #DDDDDD;  
+            color: #333333;  
+            font-weight: bold;  
+         }  
+         /* spinner */
+         #spinner-1 input {width: 100px}
+         /* uitabs */
+         #tabs-1{font-size: 14px;}  
+         .ui-widget-header {  
+            background:lightpink;  
+            border: 1px solid #b9cd6d;  
+            color: lightyellow;  
+            font-weight: bold;  
+         }  
+      </style>  
+   </head>  
+   <body>  
+      <div id="accordion-5">  
+         <h3>What is Java?</h3>  
+            <div>  
+               <p>  
+                Java is a simple, object oriented, concurrent and general purpose programming language.   
+                Some other important features of java are robust, secure, portable, interactive and high performance.   
+                Java was developed by Sun Microsystems in 1995 since then it has become very popular due to its feature  
+                like platform independent and robust in the case of memory management.  
+               </p>  
+            </div>  
+            <h3>Why is it called Platform?</h3>  
+            <div>  
+               <p>  
+               Because java has its own run time environment (JRE) and API so it is called platform.    
+               </p>  
+            </div>  
+            <h3>Where is it used?</h3>  
+            <div>  
+               <p>  
+             According to Sun Microsystems, nearly 3 billion devices run java. Some of these devices   
+             are mobile phones, games, robotics, application in banking sector etc.      
+               </p>  
+                 
+            </div>  
+          <h3>Why JavaTpoint?</h3>  
+              <div>  
+    <ul>  
+      <li>Life Time Validity</li>  
+      <li>Training by Java Professionals</li>  
+      <li>Get an opportunity to work on real time projects</li>  
+       <li>Interaction with Industry Experts</li>  
+        <li>Small Batches to focus on each student</li>  
+    </ul>  
+  </div>  
+  
+         </div>  
+         <div style="margin-top:30px">  
+            <input type="radio" name="disable" id="disableaccordion"    
+               value="disable">Disable accordion  
+            <input type="radio" name="disable" id="enableaccordion" checked   
+               value="enable">Enable accordion  
+         </div>  
+         <p style="padding-top : 50px;">Enter Date: <input type="text" id="datepicker-1"></p>
+         
+         <div style="padding-top : 50px;" id="dialog-1" title="Movie Title:Psycho (1960)">"A boy's best friend is his mother." </div>  
+      <button id="opener">Open Dialog</button>  
+
+      <section style="padding-top : 50px;">
+         <ul id="menu-1">  
+            <li><a href="#">C</a></li>  
+            <li><a href="#">C++</a></li>  
+            <li><a href="#">Java</a>  
+               <ul>  
+                  <li><a href="#">Core Java</a></li>  
+                  <li><a href="#">J2EE</a></li>  
+                  <li><a href="#">Spring</a></li>  
+                  <li><a href="#">Hibernate</a></li>  
+                  <li><a href="#">Struts</a></li>  
+               </ul>  
+            </li>  
+            <li><a href="#">JSF</a></li>  
+            <li><a href="#">HTML5</a></li>  
+         </ul>  
+   
+      </section>
+      <section style="padding-top : 50px;">
+         <div id="progressbar-1"></div>   
+
+      </section>
+      <section style="padding-top : 50px;">
+         <div id="slider-2"></div>  
+
+      </section>
+      <section  style="padding-top : 50px;">
+         <div id="example">  
+            <input type="text" id="spinner-1" value="0" />  
+         </div>  
+   
+      </section>
+      <section style="padding-top : 50px;">
+         <div id="tabs-1">  
+            <ul>  
+               <li><a href="#tabs-2">Poem</a></li>  
+               <li><a href="#tabs-3">Joke</a></li>  
+               <li><a href="#tabs-4">Quote</a></li>  
+            </ul>  
+            <div id="tabs-2">  
+               <p>Twinkle, twinkle, little star,<br/>  
+   How I wonder what you are.<br/>  
+   Up above the world so high,<br/>  
+   Like a diamond in the sky.<br/>  
+   Twinkle, twinkle, little star,<br/>  
+   How I wonder what you are!<br/>  
+    </p>  
+            </div>  
+            <div id="tabs-3">  
+   <p>Man said to God --- Why did you make women so beautiful?<br/>  
+   God said to man --- So that you will love them.<br/>  
+   Man said to God --- But why did you make them so dumb?<br/>   
+   God said to man --- So that they will love you.<br/> </p>  
+            </div>  
+            <div id="tabs-4">  
+               <p>" The whole secret of existence is to have no fear."  
+   Buddha</p>  
+            </div>  
+         </div>  
+      </section>
+      <section style="padding-top:50px ;padding-bottom:100px ;">
+         <label for="comment">What is your comment:</label>  
+         <input id="tooltip-1" title="We are asking your comment just for feedback">  
+         <p><a id="tooltip-2" href="#" title="JavaTpoint is the best tutorial website.">  
+         I also have a tooltip  
+         </a></p> 
+      </section>
+     </body>  
+</html>  
+
+ 
