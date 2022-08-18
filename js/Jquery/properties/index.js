@@ -42,4 +42,9 @@ add();
 add();
 
 // The counter should now be 3
-document.getElementById("demo").innerHTML = counter;
+$(document).ready(function(){
+    $("#closure1").click(function(){
+        document.getElementById("closure").innerHTML = counter;
+
+    })
+});
