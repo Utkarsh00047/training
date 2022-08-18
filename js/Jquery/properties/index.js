@@ -48,3 +48,19 @@ $(document).ready(function(){
 
     })
 });
+
+//spread
+
+$(document).ready(function(){
+    $("#spread1").click(function(){
+        num1 = [1, 3, 4];
+        var x= sum(...num1);
+        document.getElementById("spread").innerHTML = x;
+    })
+});
+function sum(x, y ,z) {
+    return x+y+z;
+}
+
+
+
