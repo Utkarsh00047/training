@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ecommerce/1.0.0": {
+        "dependencies": {
+          "Customer": "1.0.0",
+          "Employee": "1.0.0",
+          "Product": "1.0.0"
+        },
+        "runtime": {
+          "Ecommerce.dll": {}
+        }
+      },
+      "Customer/1.0.0": {
+        "runtime": {
+          "Customer.dll": {}
+        }
+      },
+      "Employee/1.0.0": {
+        "runtime": {
+          "Employee.dll": {}
+        }
+      },
+      "Product/1.0.0": {
+        "runtime": {
+          "Product.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ecommerce/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Customer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Employee/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Product/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

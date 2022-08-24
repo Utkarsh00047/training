@@ -1,0 +1,12 @@
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Employee\bin\Debug\net6.0\Employee.deps.json
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Employee\bin\Debug\net6.0\Employee.dll
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Employee\bin\Debug\net6.0\Employee.pdb
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Employee\obj\Debug\net6.0\Employee.csproj.AssemblyReference.cache
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Employee\obj\Debug\net6.0\Employee.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Employee\obj\Debug\net6.0\Employee.AssemblyInfoInputs.cache
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Employee\obj\Debug\net6.0\Employee.AssemblyInfo.cs
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Employee\obj\Debug\net6.0\Employee.csproj.CoreCompileInputs.cache
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Employee\obj\Debug\net6.0\Employee.dll
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Employee\obj\Debug\net6.0\refint\Employee.dll
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Employee\obj\Debug\net6.0\Employee.pdb
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Employee\obj\Debug\net6.0\ref\Employee.dll

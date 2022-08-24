@@ -1,0 +1,12 @@
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Customer\bin\Debug\net6.0\Customer.deps.json
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Customer\bin\Debug\net6.0\Customer.dll
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Customer\bin\Debug\net6.0\Customer.pdb
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Customer\obj\Debug\net6.0\Customer.csproj.AssemblyReference.cache
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Customer\obj\Debug\net6.0\Customer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Customer\obj\Debug\net6.0\Customer.AssemblyInfoInputs.cache
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Customer\obj\Debug\net6.0\Customer.AssemblyInfo.cs
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Customer\obj\Debug\net6.0\Customer.csproj.CoreCompileInputs.cache
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Customer\obj\Debug\net6.0\Customer.dll
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Customer\obj\Debug\net6.0\refint\Customer.dll
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Customer\obj\Debug\net6.0\Customer.pdb
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Customer\obj\Debug\net6.0\ref\Customer.dll

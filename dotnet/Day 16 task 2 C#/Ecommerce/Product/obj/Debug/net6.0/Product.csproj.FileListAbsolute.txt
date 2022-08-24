@@ -1,0 +1,12 @@
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Product\bin\Debug\net6.0\Product.deps.json
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Product\bin\Debug\net6.0\Product.dll
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Product\bin\Debug\net6.0\Product.pdb
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Product\obj\Debug\net6.0\Product.csproj.AssemblyReference.cache
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Product\obj\Debug\net6.0\Product.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Product\obj\Debug\net6.0\Product.AssemblyInfoInputs.cache
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Product\obj\Debug\net6.0\Product.AssemblyInfo.cs
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Product\obj\Debug\net6.0\Product.csproj.CoreCompileInputs.cache
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Product\obj\Debug\net6.0\Product.dll
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Product\obj\Debug\net6.0\refint\Product.dll
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Product\obj\Debug\net6.0\Product.pdb
+D:\Training Assignments\Day 16 task 2 C#\Ecommerce\Product\obj\Debug\net6.0\ref\Product.dll
