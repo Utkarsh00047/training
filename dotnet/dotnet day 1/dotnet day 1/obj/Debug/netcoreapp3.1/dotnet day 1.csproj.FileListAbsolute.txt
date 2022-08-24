@@ -1,0 +1,14 @@
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\bin\Debug\netcoreapp3.1\dotnet day 1.exe
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\bin\Debug\netcoreapp3.1\dotnet day 1.deps.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\bin\Debug\netcoreapp3.1\dotnet day 1.runtimeconfig.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\bin\Debug\netcoreapp3.1\dotnet day 1.runtimeconfig.dev.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\bin\Debug\netcoreapp3.1\dotnet day 1.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\bin\Debug\netcoreapp3.1\dotnet day 1.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\obj\Debug\netcoreapp3.1\dotnet day 1.csproj.AssemblyReference.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\obj\Debug\netcoreapp3.1\dotnet day 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\obj\Debug\netcoreapp3.1\dotnet day 1.AssemblyInfoInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\obj\Debug\netcoreapp3.1\dotnet day 1.AssemblyInfo.cs
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\obj\Debug\netcoreapp3.1\dotnet day 1.csproj.CoreCompileInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\obj\Debug\netcoreapp3.1\dotnet day 1.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\obj\Debug\netcoreapp3.1\dotnet day 1.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\dotnet day 1\dotnet day 1\obj\Debug\netcoreapp3.1\dotnet day 1.genruntimeconfig.cache
