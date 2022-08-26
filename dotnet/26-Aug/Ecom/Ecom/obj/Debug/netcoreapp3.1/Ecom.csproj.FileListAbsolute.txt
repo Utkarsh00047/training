@@ -1,0 +1,14 @@
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\obj\Debug\netcoreapp3.1\Ecom.csproj.AssemblyReference.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\obj\Debug\netcoreapp3.1\Ecom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\obj\Debug\netcoreapp3.1\Ecom.AssemblyInfoInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\obj\Debug\netcoreapp3.1\Ecom.AssemblyInfo.cs
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\obj\Debug\netcoreapp3.1\Ecom.csproj.CoreCompileInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\bin\Debug\netcoreapp3.1\Ecom.exe
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\bin\Debug\netcoreapp3.1\Ecom.deps.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\bin\Debug\netcoreapp3.1\Ecom.runtimeconfig.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\bin\Debug\netcoreapp3.1\Ecom.runtimeconfig.dev.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\bin\Debug\netcoreapp3.1\Ecom.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\bin\Debug\netcoreapp3.1\Ecom.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\obj\Debug\netcoreapp3.1\Ecom.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\obj\Debug\netcoreapp3.1\Ecom.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-Aug\Ecom\Ecom\obj\Debug\netcoreapp3.1\Ecom.genruntimeconfig.cache
