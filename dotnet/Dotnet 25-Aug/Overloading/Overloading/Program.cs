@@ -11,7 +11,7 @@ namespace Overloading
         }
         public static int add3(int one, int two, int three)
         {
-            Console.WriteLine("sum of 3 ");
+            Console.WriteLine("sum of 3 Number ");
             return one + two + three;
         }
         public static string Numst_ring(string one, string two, string three, string four)
