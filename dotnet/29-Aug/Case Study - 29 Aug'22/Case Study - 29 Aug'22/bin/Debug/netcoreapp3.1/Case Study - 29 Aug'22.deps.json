@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Case Study - 29 Aug'22/1.0.0": {
+        "runtime": {
+          "Case Study - 29 Aug'22.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Case Study - 29 Aug'22/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
