@@ -13,12 +13,9 @@ namespace Ecom
             {
                 Console.WriteLine("Hey Welcome to my Ecommerce App:");
                 Console.WriteLine("Please choose the desired input:");
-                Console.WriteLine("Press 1 to create customer details");
-                Console.WriteLine("Press 2 to display customer details");
-                Console.WriteLine("Press 3 to create product details");
-                Console.WriteLine("Press 4 to display product details");
-                Console.WriteLine("Press 5 to create order details");
-                Console.WriteLine("Press 6 to display order details");
+                Console.WriteLine("Press 1 to create and view customer details");
+                Console.WriteLine("Press 2 to create and view product details");
+                Console.WriteLine("Press 3 to create and view order details");
 
                 int n = int.Parse(Console.ReadLine());
 
@@ -32,18 +29,13 @@ namespace Ecom
                         customer.ShowCust();
                         break;
 
-                    case 3:
+                    case 2:
                         product.CreateProduct();
-                        break;
-                    case 4:
                         product.showProduct();
                         break;
 
-                    case 5:
+                    case 3:
                         order.createOrder();
-                        break;
-
-                    case 6:
                         order.showOrder();
                         break;
 
