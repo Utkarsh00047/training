@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Case_Study___29_Aug_22.Models
 {
-    class Patient : Base, IPatient
+    class Patient : Doctor, IPatient
     {
         public string p_Email { get; set; }
 
@@ -18,11 +18,13 @@ namespace Case_Study___29_Aug_22.Models
             Name = Console.ReadLine();
             Console.WriteLine("Enter the Patient Email:");
             p_Email= Console.ReadLine();
+            Console.WriteLine("Enter the Attending Doctor Email:");
+            Email= Console.ReadLine();
 
         }
         void IPatient.show_patient()
         {
-            Console.WriteLine("The Patient details are as follows: " + Id + " " + Name + " " +p_Email);
+            Console.WriteLine("The Patient details are as follows: " + Id + " " + Name + " " +p_Email+ ""+Email);
 
         }
     }
