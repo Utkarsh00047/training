@@ -30,7 +30,7 @@ namespace banking
                 }
             Customer cust = new Customer();
 
-            if (flag == 1)
+            for (; flag==1;)
             {
                 Console.WriteLine("enter your choice");
                 Console.WriteLine("Press 1 for add customer");
@@ -111,13 +111,19 @@ namespace banking
                         string delete_email = Console.ReadLine();
                         SqlCommand cmd2 = new SqlCommand("delete from cust_details where cust_email='"+ delete_email + "'", con);
                         cmd2.ExecuteNonQuery();
-
-                        
+                        Console.WriteLine("Customer Deleted");
                         break;
 
                     default:
                         Console.WriteLine("You have entered wrong choice");
                         break;
+                }
+
+                Console.WriteLine("do you want to continue then press Y and if you want to logout press N");
+                string cont = Console.ReadLine();
+                if (cont == "N")
+                {
+                    flag = 0;
                 }
 
             }
