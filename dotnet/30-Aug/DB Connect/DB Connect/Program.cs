@@ -65,7 +65,7 @@ namespace DB_Connect
                         int x = ds.Tables[0].Rows.Count;
 
 
-                        for (int i = 0; i < x; i++)
+                        for (int i = 0; i < x; i+   +)
                         {
                             if (id1.ToString() == ds.Tables[0].Rows[i][0].ToString())
                             {
