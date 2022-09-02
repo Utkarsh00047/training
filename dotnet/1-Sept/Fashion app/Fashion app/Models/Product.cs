@@ -14,7 +14,7 @@ namespace Fashion_app.Models
         public string description { get; set; }
 
 
-        void IProduct.add_product()
+        void IProduct.add_product(string pro_con)
         {
             Console.WriteLine("Enter Product Name ");
             Name = Console.ReadLine();
@@ -32,6 +32,8 @@ namespace Fashion_app.Models
             con.Open();
             cmd.ExecuteNonQuery();
             con.Close();
+
+            Console.WriteLine(pro_con);
         }
     }
 }

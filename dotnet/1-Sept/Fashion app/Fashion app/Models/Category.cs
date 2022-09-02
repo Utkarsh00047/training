@@ -9,8 +9,9 @@ namespace Fashion_app.Models
     class Category : Base, ICategory
     {
         public string category_code { get; set; }
-        void ICategory.Category_create()
+        void ICategory.Category_create(string a)
         {
+            
             Console.Write("enter category name");
             string Name = Console.ReadLine();
             Console.Write("enter category code");
@@ -20,8 +21,8 @@ namespace Fashion_app.Models
             con.Open();
             cmd.ExecuteNonQuery();
             con.Close();
-            //sql query to add cat
-            Console.WriteLine("category added");
+            Console.WriteLine(a);
+            
         }
     }
 }

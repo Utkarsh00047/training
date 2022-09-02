@@ -8,6 +8,6 @@ namespace Fashion_app.Interfaces
     {
         public string category_code { get; set; }
 
-        void Category_create();
+        void Category_create(string a);
     }
 }
