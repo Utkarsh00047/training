@@ -38,24 +38,25 @@ namespace Fashion_app
 
 
             SqlConnection con = new SqlConnection("server = BHAVNAWKS577; database = fashion; User id=sa;Password=Bhavna@123");
-            //category adapter
-            SqlDataAdapter da = new SqlDataAdapter("select * from Category", con);
-            DataSet ds = new DataSet();
-            da.Fill(ds, "Category");
-
-            int x = ds.Tables[0].Rows.Count;
-
-            //product adapter
-            SqlDataAdapter da_pro = new SqlDataAdapter("select * from Product", con);
-            DataSet ds_pro = new DataSet();
-            da_pro.Fill(ds_pro, "Product");
             string answer = "Y";
-            int x_pro = ds_pro.Tables[0].Rows.Count;
 
             if (flag == 1)
             {
                 for (; answer.ToUpper() == "Y";)
                 {
+                    //category adapter
+                    SqlDataAdapter da = new SqlDataAdapter("select * from Category", con);
+                    DataSet ds = new DataSet();
+                    da.Fill(ds, "Category");
+
+                    int x = ds.Tables[0].Rows.Count;
+
+                    //product adapter
+                    SqlDataAdapter da_pro = new SqlDataAdapter("select * from Product", con);
+                    DataSet ds_pro = new DataSet();
+                    da_pro.Fill(ds_pro, "Product");
+                    
+                    int x_pro = ds_pro.Tables[0].Rows.Count;
                     Console.WriteLine("Press 1 for adding category");
                     Console.WriteLine("Press 2 for adding Product");
                     Console.WriteLine("Press 3 for finding Product from category id");
@@ -73,7 +74,6 @@ namespace Fashion_app
                         case 2:
                             IProduct pro = new Product();
                             Action<string> obj_pro = new Action<string>(pro.add_product);
-                            //pro.add_product();
                             obj_pro.Invoke("product added");
                             break;
 
@@ -143,7 +143,7 @@ namespace Fashion_app
 
                                     for (int i = 0; i < x_find_cat; i++)
                                     {
-                                        Console.WriteLine("category name:" + ds_find_cat.Tables[0].Rows[j][0].ToString());
+                                        Console.WriteLine("category name:" + ds_find_cat.Tables[0].Rows[i][0].ToString());
                                     }
 
                                 }
