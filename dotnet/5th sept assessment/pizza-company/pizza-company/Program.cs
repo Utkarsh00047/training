@@ -76,13 +76,19 @@ namespace pizza_company
             DataSet ds_fran_list = new DataSet();
             da_fran_list.Fill(ds_fran_list, "franchisee_cred");
             int x_fran_list = ds_fran_list.Tables[0].Rows.Count;
+
+
+
+
             switch (flag)
             { 
                 case 1:
                     Console.WriteLine("Press 1 to add franchise");
                     Console.WriteLine("Press 2 to view all franchise");
                     Console.WriteLine("Press 3 to fine franchise from code");
-                    //Console.WriteLine("Press 4 to find sale according franchise code");
+                    Console.WriteLine("Press 4 to find offline sale according franchise code");
+                    Console.WriteLine("Press 5 to find offline sale according franchise code");
+
                     int choice = int.Parse(Console.ReadLine());
                     switch(choice)
                     {
@@ -122,6 +128,28 @@ namespace pizza_company
 
                             }
                             break;
+                        case 4:
+                            Console.WriteLine("write franchise code offline sale");
+                            string sale_f_code = Console.ReadLine();
+
+                            SqlDataAdapter da_offline_order = new SqlDataAdapter("SELECT SUM(offline_order_amount) FROM offline_sale WHERE offline_order_franchisee_code = '"+sale_f_code+"'", con);
+
+                            DataSet ds_offline_order = new DataSet();
+                            da_offline_order.Fill(ds_offline_order, "offline_sale");
+                            int x_offline_order = ds_offline_order.Tables[0].Rows.Count;
+                            Console.WriteLine("total sale ="+ ds_offline_order.Tables[0].Rows[0][0]);
+                            break;
+                        case 5:
+                            Console.WriteLine("write franchise code online sale");
+                            string sale_f_code_online = Console.ReadLine();
+
+                            SqlDataAdapter da_online_order = new SqlDataAdapter("SELECT SUM(online_order_amount) FROM online_sale WHERE online_order_franchisee_code = '" + sale_f_code_online + "'", con);
+
+                            DataSet ds_online_order = new DataSet();
+                            da_online_order.Fill(ds_online_order, "online_sale");
+                            int x_online_order = ds_online_order.Tables[0].Rows.Count;
+                            Console.WriteLine("total sale =" + ds_online_order.Tables[0].Rows[0][0]);
+                            break;
                         default:
                             Console.WriteLine("wrong choice");
                         break;
@@ -131,6 +159,8 @@ namespace pizza_company
                 case 2:
                     Console.WriteLine("press 1 for create online order");
                     Console.WriteLine("press 2 for create offline order");
+                    Console.WriteLine("press 3 for create offline order");
+
                     int choice_fran = int.Parse(Console.ReadLine());
                     switch (choice_fran)
                     {
@@ -141,6 +171,10 @@ namespace pizza_company
                         case 2:
                             IOnlineorder onlineorder_offline = new Onlineorder();
                             onlineorder_offline.create_offline_order();
+                            break;
+                        case 3:
+                            IEmp emp = new Emp();
+                            emp.create_emp();
                             break;
                     }
 
