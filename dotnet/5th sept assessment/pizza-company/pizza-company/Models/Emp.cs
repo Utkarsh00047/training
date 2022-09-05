@@ -28,8 +28,7 @@ namespace pizza_company.Models
             e_code = Console.ReadLine();
 
             SqlConnection con = new SqlConnection("server = BHAVNAWKS577; database = pizza; User id=sa;Password=Bhavna@123");
-            SqlCommand cmd = new SqlCommand("insert into emp_detail(emp_name,emp_email,emp_code,emp_salary,franchisee_code,salary_distributed_date)" +
-                "values ( '" + Name + "' , '" + e_email + "' , '" + e_code + "' , '" + e_salary + "' , '" + f_code + "', GETDATE())", con);
+            SqlCommand cmd = new SqlCommand("insert into emp_detail(emp_name,emp_email,emp_code,emp_salary,franchisee_code,salary_distributed_date) values ( '" + Name + "' , '" + e_email + "' , '" + e_code + "' , '" + e_salary + "' , '" + f_code + "', GETDATE())", con);
             con.Open();
             cmd.ExecuteNonQuery();  
             con.Close();

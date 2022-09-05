@@ -31,12 +31,10 @@ namespace pizza_company.Models
             f_address = Console.ReadLine();
 
             SqlConnection con = new SqlConnection("server = BHAVNAWKS577; database = pizza; User id=sa;Password=Bhavna@123");
-            SqlCommand cmd = new SqlCommand("insert into franchisee_cred(franchisee_name,franchisee_pass,franchisee_email,franchisee_code,franchisee_cnumber,franchisee_address,franchisee_reg_date)" +
-                "values ( '" + Name + "' , '"+ f_pass +"' , '"+ f_email +"' , '"+ f_code +"' , '"+ f_number +"', '"+f_address+ "',GETDATE())", con);
+            SqlCommand cmd = new SqlCommand("insert into franchisee_cred(franchisee_name,franchisee_pass,franchisee_email,franchisee_code,franchisee_cnumber,franchisee_address,franchisee_reg_date) values ( '" + Name + "' , '"+ f_pass +"' , '"+ f_email +"' , '"+ f_code +"' , '"+ f_number +"', '"+f_address+ "',GETDATE())", con);
             con.Open();
             cmd.ExecuteNonQuery();
             con.Close();
-
 
         }
     }
