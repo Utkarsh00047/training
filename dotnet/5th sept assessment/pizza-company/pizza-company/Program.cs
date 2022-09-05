@@ -87,7 +87,7 @@ namespace pizza_company
                     Console.WriteLine("Press 2 to view all franchise");
                     Console.WriteLine("Press 3 to fine franchise from code");
                     Console.WriteLine("Press 4 to find offline sale according franchise code");
-                    Console.WriteLine("Press 5 to find offline sale according franchise code");
+                    Console.WriteLine("Press 5 to find online sale according franchise code");
 
                     int choice = int.Parse(Console.ReadLine());
                     switch(choice)
@@ -159,7 +159,7 @@ namespace pizza_company
                 case 2:
                     Console.WriteLine("press 1 for create online order");
                     Console.WriteLine("press 2 for create offline order");
-                    Console.WriteLine("press 3 for create offline order");
+                    Console.WriteLine("press 3 for new employee");
 
                     int choice_fran = int.Parse(Console.ReadLine());
                     switch (choice_fran)
