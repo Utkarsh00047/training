@@ -10,11 +10,6 @@ namespace pizza_company
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-
-            //IOnlineorder onlineorder = new Onlineorder();
-            //onlineorder.create_offline_order();
-            //connection string
             SqlConnection con = new SqlConnection("server = BHAVNAWKS577; database = pizza; User id=sa;Password=Bhavna@123");
             string relogin = "y";
             //login
@@ -24,8 +19,6 @@ namespace pizza_company
             int role = int.Parse(Console.ReadLine());
             string email,pass;
             int flag=0;
-
-
 
                 if (role == 1)
                 {

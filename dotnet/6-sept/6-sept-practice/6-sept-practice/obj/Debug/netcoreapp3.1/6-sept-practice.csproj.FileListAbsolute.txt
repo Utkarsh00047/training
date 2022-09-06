@@ -1,0 +1,14 @@
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\bin\Debug\netcoreapp3.1\6-sept-practice.exe
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\bin\Debug\netcoreapp3.1\6-sept-practice.deps.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\bin\Debug\netcoreapp3.1\6-sept-practice.runtimeconfig.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\bin\Debug\netcoreapp3.1\6-sept-practice.runtimeconfig.dev.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\bin\Debug\netcoreapp3.1\6-sept-practice.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\bin\Debug\netcoreapp3.1\6-sept-practice.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\obj\Debug\netcoreapp3.1\6-sept-practice.csproj.AssemblyReference.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\obj\Debug\netcoreapp3.1\6-sept-practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\obj\Debug\netcoreapp3.1\6-sept-practice.AssemblyInfoInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\obj\Debug\netcoreapp3.1\6-sept-practice.AssemblyInfo.cs
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\obj\Debug\netcoreapp3.1\6-sept-practice.csproj.CoreCompileInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\obj\Debug\netcoreapp3.1\6-sept-practice.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\obj\Debug\netcoreapp3.1\6-sept-practice.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\6-sept\6-sept-practice\6-sept-practice\obj\Debug\netcoreapp3.1\6-sept-practice.genruntimeconfig.cache
