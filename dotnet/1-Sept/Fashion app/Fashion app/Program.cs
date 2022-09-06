@@ -69,7 +69,7 @@ namespace Fashion_app
                             ICategory cat = new Category();
                             Action<string> obj = new Action<string>(cat.Category_create);
                             obj.Invoke("category added");
-                            break;
+                            break; 
 
                         case 2:
                             IProduct pro = new Product();

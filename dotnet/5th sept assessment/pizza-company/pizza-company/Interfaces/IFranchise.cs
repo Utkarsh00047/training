@@ -12,6 +12,6 @@ namespace pizza_company.Interfaces
         public string f_number { get; set; }
         public string f_address { get; set; }
 
-        void add_f();
+        void add_f(string add_franchise);
     }
 }

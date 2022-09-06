@@ -24,7 +24,7 @@ namespace Fashion_app.Models
             P_price = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter Product description ");
             description = Console.ReadLine();
-
+ 
             Console.WriteLine("enter product category id ");
             int cat_id = int.Parse(Console.ReadLine());
             SqlConnection con = new SqlConnection("server = BHAVNAWKS577; database = fashion; User id=sa;Password=Bhavna@123");

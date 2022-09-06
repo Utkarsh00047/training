@@ -90,8 +90,16 @@ values
 select * from offline_sale
 
 select * from offline_sale
-SELECT SUM(offline_order_amount)
-FROM offline_sale
-WHERE offline_order_date = '2022-09-05';
+SELECT SUM(offline_order_amount) FROM offline_sale WHERE offline_order_date = '2022-09-05';
 
+use pizza
+create table salary(
+	sal_des_id INT IDENTITY(1,1),
+	emp_code VARCHAR(25),
+	total_salary VARCHAR(25),
+	sal_date date
+)
 
+insert into salary(emp_code,total_salary,sal_date) values ('emp001','5000',GETDATE()),
+('emp001','5000',GETDATE())
+select * from salary

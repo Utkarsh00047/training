@@ -14,7 +14,7 @@ namespace pizza_company.Models
         public string f_number { get; set; }
         public string f_address { get; set; }
 
-        void IFranchise.add_f()
+        void IFranchise.add_f(string add_franchise)
         {
             Console.WriteLine("please enter following details to register franchise");
             Console.WriteLine("Enter Franchise Name");
