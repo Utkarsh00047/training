@@ -1,0 +1,17 @@
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\obj\Debug\netcoreapp3.1\new_atm_app.csproj.AssemblyReference.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\obj\Debug\netcoreapp3.1\new_atm_app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\obj\Debug\netcoreapp3.1\new_atm_app.AssemblyInfoInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\obj\Debug\netcoreapp3.1\new_atm_app.AssemblyInfo.cs
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\obj\Debug\netcoreapp3.1\new_atm_app.csproj.CoreCompileInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\bin\Debug\netcoreapp3.1\new_atm_app.exe
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\bin\Debug\netcoreapp3.1\new_atm_app.deps.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\bin\Debug\netcoreapp3.1\new_atm_app.runtimeconfig.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\bin\Debug\netcoreapp3.1\new_atm_app.runtimeconfig.dev.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\bin\Debug\netcoreapp3.1\new_atm_app.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\bin\Debug\netcoreapp3.1\new_atm_app.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\bin\Debug\netcoreapp3.1\ConsoleTableExt.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\bin\Debug\netcoreapp3.1\ConsoleTables.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\obj\Debug\netcoreapp3.1\new_atm_app.csproj.CopyComplete
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\obj\Debug\netcoreapp3.1\new_atm_app.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\obj\Debug\netcoreapp3.1\new_atm_app.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\new_atm_app\new_atm_app\obj\Debug\netcoreapp3.1\new_atm_app.genruntimeconfig.cache

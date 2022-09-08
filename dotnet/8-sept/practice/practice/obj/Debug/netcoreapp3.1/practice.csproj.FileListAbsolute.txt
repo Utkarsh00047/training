@@ -1,0 +1,14 @@
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\bin\Debug\netcoreapp3.1\practice.exe
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\bin\Debug\netcoreapp3.1\practice.deps.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\bin\Debug\netcoreapp3.1\practice.runtimeconfig.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\bin\Debug\netcoreapp3.1\practice.runtimeconfig.dev.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\bin\Debug\netcoreapp3.1\practice.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\bin\Debug\netcoreapp3.1\practice.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\obj\Debug\netcoreapp3.1\practice.csproj.AssemblyReference.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\obj\Debug\netcoreapp3.1\practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\obj\Debug\netcoreapp3.1\practice.AssemblyInfoInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\obj\Debug\netcoreapp3.1\practice.AssemblyInfo.cs
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\obj\Debug\netcoreapp3.1\practice.csproj.CoreCompileInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\obj\Debug\netcoreapp3.1\practice.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\obj\Debug\netcoreapp3.1\practice.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\8-sept\practice\practice\obj\Debug\netcoreapp3.1\practice.genruntimeconfig.cache
