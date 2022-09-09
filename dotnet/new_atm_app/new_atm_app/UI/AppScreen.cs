@@ -9,7 +9,7 @@ namespace ATMApp.UI
 {
     public class AppScreen
     {
-        internal const string cur = "N ";
+        internal const string cur = "INR ";
         internal static void Welcome()
         {
             //clears the console screen
