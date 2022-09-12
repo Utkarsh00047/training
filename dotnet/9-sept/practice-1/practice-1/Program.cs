@@ -15,9 +15,9 @@ namespace practice_1
             Console.WriteLine("enter phone: ");
             string phone = Console.ReadLine();
 
-            string combine = name + email + phone + "\n";
+            string combine = name+" " + email +" "+ phone + "\n";
 
-            string fileName = @"C:\Users\Utkarsh.gupta\source\training-1\dotnet\9-sept\practice-1test.txt";
+            string fileName = @"C:\Users\Utkarsh.gupta\source\training-1\dotnet\9-sept\practice-1\test.txt";
             FileStream fs = File.Create(fileName);
             fs.Close();
             File.WriteAllText(fileName , combine);
