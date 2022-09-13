@@ -1,0 +1,14 @@
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\bin\Debug\netcoreapp3.1\threading.exe
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\bin\Debug\netcoreapp3.1\threading.deps.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\bin\Debug\netcoreapp3.1\threading.runtimeconfig.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\bin\Debug\netcoreapp3.1\threading.runtimeconfig.dev.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\bin\Debug\netcoreapp3.1\threading.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\bin\Debug\netcoreapp3.1\threading.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\obj\Debug\netcoreapp3.1\threading.csproj.AssemblyReference.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\obj\Debug\netcoreapp3.1\threading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\obj\Debug\netcoreapp3.1\threading.AssemblyInfoInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\obj\Debug\netcoreapp3.1\threading.AssemblyInfo.cs
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\obj\Debug\netcoreapp3.1\threading.csproj.CoreCompileInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\obj\Debug\netcoreapp3.1\threading.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\obj\Debug\netcoreapp3.1\threading.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\13-sept\threading\threading\obj\Debug\netcoreapp3.1\threading.genruntimeconfig.cache
