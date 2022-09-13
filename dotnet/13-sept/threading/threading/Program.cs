@@ -18,12 +18,7 @@ namespace threading
             {
                 static void Main(string[] args)
                 {
-                    /*MyThread mt = new MyThread();
-                    Thread t1 = new Thread(new ThreadStart(mt.Thread1));
-                    Thread t2 = new Thread(new ThreadStart(mt.Thread1));
-                    t1.Start();
-                    t2.Start();
-                    */
+
                     Console.WriteLine("Main Thread starts");
                     Thread t1 = new Thread(method1)
                     {
@@ -75,12 +70,12 @@ namespace threading
                     {
                         if (i == 3)
                         {
-                            Console.WriteLine("perform thread opearion start");
+                            Console.WriteLine("threading start");
                             Thread.Sleep(5000);
-                            Console.WriteLine("thread operation compleated");
+                            Console.WriteLine("threading compleated");
                         }
                     }
-                    Console.WriteLine("m3 end", Thread.CurrentThread.Name);
+                    Console.WriteLine("end", Thread.CurrentThread.Name);
                 }
             }
         }
