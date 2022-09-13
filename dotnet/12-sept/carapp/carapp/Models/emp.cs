@@ -25,7 +25,7 @@ namespace carapp.Models
             emp_cost = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the Employee Designation :");
             designation = Console.ReadLine();
-            SqlCommand cmd = new SqlCommand("insert into emp(emp_name,emp_cost,emp_email,designation) values ( '" + Name + "' , '" + emp_cost + "' , '" + emp_email + "' , '" + designation + "' ", con);
+            SqlCommand cmd = new SqlCommand("insert into emp(emp_name,emp_cost,emp_email,designation) values ( '" + Name + "' , '" + emp_cost + "' , '" + emp_email + "' , '" + designation + "')", con);
             con.Open();
             cmd.ExecuteNonQuery();
             con.Close();

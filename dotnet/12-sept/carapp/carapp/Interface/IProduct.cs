@@ -12,6 +12,7 @@ namespace carapp.Interface
         public int selling_price { get; set; }
         public int profit { get; set; }
         void create_product();
+        void view_product();
 
     }
 }

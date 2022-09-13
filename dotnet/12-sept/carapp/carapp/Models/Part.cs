@@ -12,9 +12,9 @@ namespace carapp.Models
         public int part_cost { get; set; }
         public string part_code { get; set; }
         public int totalCost { get; set; }
-        SqlConnection con = new SqlConnection("server = BHAVNAWKS577\\SQLEXPRESS; database = car; User id=sa;Password=Bhavna@123");
+        SqlConnection con = new SqlConnection("server = BHAVNAWKS577; database = car; User id=sa;Password=Bhavna@123");
 
-        void IPart.create_part()
+        void IPart.create_part(string part_added)
         {
             Console.WriteLine("Enter the Part Details: ");
             Console.WriteLine("Enter the Part Name: ");
@@ -23,10 +23,11 @@ namespace carapp.Models
             part_code = Console.ReadLine();
             Console.WriteLine("Enter the Part cost: ");
             part_cost = int.Parse(Console.ReadLine());
-            SqlCommand cmd = new SqlCommand("insert into part(part_code,part_name,part_cost) values ( '" + part_code + "' , '" + Name + "' , " + part_cost + "", con);
+            SqlCommand cmd = new SqlCommand("insert into part(part_code,part_name,part_cost) values ( '" + part_code + "' , '" + Name + "' , " + part_cost + ")", con);
             con.Open();
             cmd.ExecuteNonQuery();
             con.Close();
+            Console.WriteLine(part_added);
         }
 
         int IPart.view_part()

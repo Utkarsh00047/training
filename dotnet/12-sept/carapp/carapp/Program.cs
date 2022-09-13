@@ -1,4 +1,5 @@
-﻿using carapp.Interface;
+﻿using carapp.Enum;
+using carapp.Interface;
 using carapp.Models;
 using System;
 using System.Data;
@@ -18,7 +19,7 @@ namespace carapp
             for (; answer.ToUpper() == "Y";)
             {
 
-                Console.WriteLine("\nHey Welcome to MBenz, We're Glad that You are Here:");
+                Console.WriteLine("\nHey Welcome Admin");
                 Console.WriteLine("Hey go for admin Login\n");
                 IAdminlogin admin = new Adminlogin();
                 Predicate<string> obj = new Predicate<string>(admin.ALogin);
@@ -35,30 +36,51 @@ namespace carapp
                         Console.WriteLine("Press 3 for view product ");
                         Console.WriteLine("Press 4 To add product: ");
                         Console.WriteLine("Press 5 To add give day salary: ");
-                        Console.WriteLine("Press 6 check monthly salary by employee id");
+                        Console.WriteLine("Press 6 check Balancesheet");
+                        Console.WriteLine("Press 7 for view Employee ");
 
 
                         int b = int.Parse(Console.ReadLine());
                         switch (b)
                         {
-                            case 1:
+                            case (int)AppMenu.viewPart:
                                 IPart part = new Part();
                                 part.view_part();
                                 break;
-                            case 2:
+                            case (int)AppMenu.createPart:
                                 IPart part_add = new Part();
-                                part_add.create_part();
+                                //part_add.create_part();
+                                Action<string> obj1 = new Action<string>(part_add.create_part);
+                                obj1.Invoke("Part added");
+
                                 break;
-                            case 3:
-                                    //code for view product need to be created
+                            case (int)AppMenu.viewProduct:
+                                //code for view product need to be created
+                                IProduct product_view = new Product();
+                                product_view.view_product();
                                 break;
-                            case 4:
+                            case (int)AppMenu.createProduct:
                                 IProduct product = new Product();
                                 product.create_product();
                                 break;
-                            case 5:
+                            case (int)AppMenu.workinghours:
                                 IWorking working = new Working();
                                 working.working_day_pay();
+                                break;
+                            case (int)AppMenu.balancesheet:
+                                Blanacesheet bsheet = new Blanacesheet();
+                                bsheet.bsheet();
+
+                                break;
+                            case (int)AppMenu.emp_view:
+                                IEmp emp = new emp();
+                                emp.view_emp();
+
+                                break;
+                            case (int)AppMenu.create_employee:
+                                IEmp emp1 = new emp();
+                                emp1.create_emp();
+
                                 break;
 
 

@@ -10,7 +10,7 @@ namespace carapp.Interface
         public string part_code { get; set; }
         public int totalCost { get; set; }
 
-        void create_part();
+        void create_part(string part_added);
         int view_part();
     }
 }

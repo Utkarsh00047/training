@@ -13,7 +13,7 @@ namespace carapp.Models
         public int day_pay { get; set; }
         public int hourly_cost { get; set; }
 
-        SqlConnection con = new SqlConnection("server = BHAVNAWKS577\\SQLEXPRESS; database = car; User id=sa;Password=Bhavna@123");
+        SqlConnection con = new SqlConnection("server = BHAVNAWKS577; database = car; User id=sa;Password=Bhavna@123");
 
         void IWorking.working_day_pay()
         {
@@ -39,7 +39,7 @@ namespace carapp.Models
 
             Console.WriteLine("total payment of date " + working_date + " is " + day_pay + " INR");
 
-            SqlCommand cmd = new SqlCommand("insert into working_hours(emp_id,working_date,total_w_hours,day_payout) values ( " + Id + " , '" + working_date + "' , " + working_hours + " , " + day_pay + "", con);
+            SqlCommand cmd = new SqlCommand("insert into working_hours(emp_id,working_date,total_w_hours,day_payout) values ( " + Id + " , '" + working_date + "' , " + working_hours + " , " + day_pay + ")", con);
             con.Open();
             cmd.ExecuteNonQuery();
             con.Close();
