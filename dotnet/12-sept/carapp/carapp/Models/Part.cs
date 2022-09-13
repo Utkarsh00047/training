@@ -11,7 +11,8 @@ namespace carapp.Models
     {
         public int part_cost { get; set; }
         public string part_code { get; set; }
-        SqlConnection con = new SqlConnection("server = BHAVNAWKS577; database = car; User id=sa;Password=Bhavna@123");
+        public int totalCost { get; set; }
+        SqlConnection con = new SqlConnection("server = BHAVNAWKS577\\SQLEXPRESS; database = car; User id=sa;Password=Bhavna@123");
 
         void IPart.create_part()
         {
@@ -35,19 +36,20 @@ namespace carapp.Models
             SqlDataAdapter da_part = new SqlDataAdapter("select * from part", con);
             DataSet ds_part = new DataSet();
             da_part.Fill(ds_part, "part");
-            int x= ds_part.Tables[0].Rows.Count;
+            int x = ds_part.Tables[0].Rows.Count;
             for (int j = 0; j < x; j++)
             {
                 Console.WriteLine("Part Code: " + ds_part.Tables[0].Rows[j][1].ToString());
                 Console.WriteLine("Part Name: " + ds_part.Tables[0].Rows[j][2].ToString());
-                Console.WriteLine("Part Cost: " + ds_part.Tables[0].Rows[j][3]);
+                Console.WriteLine("Part Cost: " + ds_part.Tables[0].Rows[j][3].ToString());
                 t_cost = t_cost + int.Parse(ds_part.Tables[0].Rows[j][3].ToString());
 
             }
 
             con.Close();
+            totalCost = t_cost;
             return t_cost;
-            
+
         }
     }
 }

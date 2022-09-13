@@ -1,5 +1,5 @@
 CREATE DATABASE car
-
+use car
 create table admin(
 		admin_id INT primary key,
 		admin_name varchar(25),
@@ -15,11 +15,13 @@ create table emp(
 	emp_email varchar(25),
 	designation varchar(25),
 )
+select * from emp
 
-insert into emp (emp_id,emp_name,emp_cost,emp_email,designation) values (1,'name 1',100,'email1@email.com','worker'),
-(2,'name 2',102,'email2@email.com','senior worker'),
-(3,'name 3',103,'email3@email.com','superviser'),
-(4,'name 4',104,'email4@email.com','QA')
+insert into emp (emp_name,emp_cost,emp_email,designation) values ('name 1',100,'email1@email.com','worker'),
+('name 2',102,'email2@email.com','senior worker'),
+('name 3',103,'email3@email.com','superviser'),
+('name 4',104,'email4@email.com','QA')
+select * from emp
 
 create table part(
 	part_id int IDENTITY(1,1),
@@ -28,14 +30,15 @@ create table part(
 	part_cost int,
 )
 
-insert into part(part_id,part_code,part_name,part_cost) values (1,'p001','tyre',1000),
-(2,'p002','break',2000),
-(3,'p003','engine',3000),
-(4,'p004','wheel',500)
+insert into part(part_code,part_name,part_cost) values ('p001','tyre',1000),
+('p002','break',2000),
+('p003','engine',3000),
+('p004','wheel',500)
+select * from part
 
 create table product(
 	PRO_ID int IDENTITY(1,1),
-	pro_code int primary key,
+	pro_code varchar(25) primary key,
 	man_p_cost int,
 	total_cost int, --all part cost + man_p_cost
 	selling_p int,
@@ -43,7 +46,7 @@ create table product(
 	profit int,
 )
 
-insert into product(PRO_ID,pro_code,man_p_cost,total_cost,selling_p,selling_date,profit) values (1,'pro001',10000,16500,20000,GETDATE(),3500)
+insert into product(pro_code,man_p_cost,total_cost,selling_p,selling_date,profit) values ('pro001',10000,16500,20000,GETDATE(),3500)
 
 create table working_hours(
 		emp_id int,

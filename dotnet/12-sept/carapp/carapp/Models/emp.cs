@@ -42,8 +42,8 @@ namespace carapp.Models
             {
                 Console.WriteLine("Employee Name : " + ds_emp.Tables[0].Rows[j][1].ToString());
                 Console.WriteLine("Employee cost : " + ds_emp.Tables[0].Rows[j][2].ToString());
-                Console.WriteLine("Employee Email : " + ds_emp.Tables[0].Rows[j][3]);
-                Console.WriteLine("Employee Designation : " + ds_emp.Tables[0].Rows[j][3]);
+                Console.WriteLine("Employee Email : " + ds_emp.Tables[0].Rows[j][3].ToString());
+                Console.WriteLine("Employee Designation : " + ds_emp.Tables[0].Rows[j][3].ToString());
 
             }
             con.Close();
