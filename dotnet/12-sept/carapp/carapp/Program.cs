@@ -11,10 +11,7 @@ namespace carapp
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-            //IPart part = new Part();
-            //var v= part.view_part();
-            //Console.WriteLine(v);
+
             string answer = "Y";
             for (; answer.ToUpper() == "Y";)
             {
@@ -31,13 +28,13 @@ namespace carapp
                     for (; ay.ToUpper() == "Y";)
                     {
                         Console.WriteLine("Hi, Admin Select the Desired Option: ");
-                        Console.WriteLine("Press 1 for view parts ");
-                        Console.WriteLine("Press 2 For add parts ");
-                        Console.WriteLine("Press 3 for view product ");
-                        Console.WriteLine("Press 4 To add product: ");
-                        Console.WriteLine("Press 5 To add give day salary: ");
-                        Console.WriteLine("Press 6 check Balancesheet");
-                        Console.WriteLine("Press 7 for view Employee ");
+                        Console.WriteLine("Type 1 for view parts ");
+                        Console.WriteLine("Type 2 For add parts ");
+                        Console.WriteLine("Type 3 for view product ");
+                        Console.WriteLine("Type 4 To add product: ");
+                        Console.WriteLine("Type 5 To add give day salary: ");
+                        Console.WriteLine("Type 6 check Balancesheet");
+                        Console.WriteLine("Type 7 for view Employee ");
 
 
                         int b = int.Parse(Console.ReadLine());

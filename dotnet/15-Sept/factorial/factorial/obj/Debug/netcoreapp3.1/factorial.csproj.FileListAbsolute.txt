@@ -1,0 +1,14 @@
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\bin\Debug\netcoreapp3.1\factorial.exe
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\bin\Debug\netcoreapp3.1\factorial.deps.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\bin\Debug\netcoreapp3.1\factorial.runtimeconfig.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\bin\Debug\netcoreapp3.1\factorial.runtimeconfig.dev.json
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\bin\Debug\netcoreapp3.1\factorial.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\bin\Debug\netcoreapp3.1\factorial.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\obj\Debug\netcoreapp3.1\factorial.csproj.AssemblyReference.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\obj\Debug\netcoreapp3.1\factorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\obj\Debug\netcoreapp3.1\factorial.AssemblyInfoInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\obj\Debug\netcoreapp3.1\factorial.AssemblyInfo.cs
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\obj\Debug\netcoreapp3.1\factorial.csproj.CoreCompileInputs.cache
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\obj\Debug\netcoreapp3.1\factorial.dll
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\obj\Debug\netcoreapp3.1\factorial.pdb
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\15-Sept\factorial\factorial\obj\Debug\netcoreapp3.1\factorial.genruntimeconfig.cache

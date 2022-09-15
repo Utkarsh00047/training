@@ -1,2 +1,8 @@
 Total Cost: 24001 Total Sale: 71000 Total Profit: 46999 Total Salary: 700
 
+Total Cost: 24001 Total Sale: 71000 Total Profit: 46999 Total Salary: 1700
+
+Total Cost: 80522 Total Sale: 131000 Total Profit: 50478 Total Salary: 1700
+
+Total Cost: 112043 Total Sale: 181000 Total Profit: 68957 Total Salary: 2900
+

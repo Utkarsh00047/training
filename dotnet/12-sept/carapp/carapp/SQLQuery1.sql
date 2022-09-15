@@ -57,9 +57,25 @@ create table working_hours(
 )
 
 insert into working_hours(emp_id,working_date,total_w_hours,day_payout) values(1,GETDATE(),7,700)
-
+select * from working_hours
 create table salary(
 		emp_id int,
 		FOREIGN KEY (emp_id) REFERENCES emp(emp_id),
 		salary_date date,
 )
+create procedure sp_total
+as
+begin
+select SUM(total_cost) As total_Cost, SUM(selling_p) AS total_sale, Sum(profit) as total_profit from product
+end
+
+exec sp_total;
+
+create procedure d_total
+as
+begin
+select SUM(day_payout) As Total_Salary from working_hours
+end
+
+exec d_total;
+
