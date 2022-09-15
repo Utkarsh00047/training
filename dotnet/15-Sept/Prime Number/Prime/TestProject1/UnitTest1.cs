@@ -12,18 +12,18 @@ namespace TestProject1
             PrimeNumber Prime = new PrimeNumber();
         }
         [TestMethod]
-        public void oneisprime()
+        public void Oneisprime()
         {
             PrimeNumber calculator = new PrimeNumber();
-            float result = calculator.GetPrime(1);
+            int result = (int)calculator.GetPrime(3);
 
             Assert.AreEqual(0, result);
         }
         [TestMethod]
-        public void twoisprime()
+        public void Twoisprime()
         {
             PrimeNumber calculator = new PrimeNumber();
-            float result = calculator.GetPrime(2);
+            int result = (int)calculator.GetPrime(2);
 
             Assert.AreEqual(0, result);
         }

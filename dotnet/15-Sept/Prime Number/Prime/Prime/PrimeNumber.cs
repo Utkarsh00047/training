@@ -13,10 +13,11 @@ namespace Prime
 
         public float GetPrime(int p)
         {
-            int n, i, m = 0, flag = 0;
+            int n, i,  flag = 0;
+            float m = 0.0F;
             Console.Write("Enter the Number to check Prime: ");
             n = int.Parse(Console.ReadLine());
-            m = n / 2;
+            m = (float)Math.Sqrt(n);
             for (i = 2; i <= m; i++)
             {
                 if (n % i == 0)
