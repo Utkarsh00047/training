@@ -519,6 +519,15 @@ div.desc {
     width: 46%;
     min-height: 160px;
   }
+  .slide-content span{
+    font-size: 2rem;
+  }
+  .fa-angle-left:before {
+    font-size: 50px;
+}
+.fa-angle-right:before {
+  font-size: 50px;
+}
 }
 
 /* event gallery */
