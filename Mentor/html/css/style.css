@@ -32,7 +32,6 @@ a {
 
 h1,
 h2 {
-  font-weight: 300;
   line-height: 1.2;
   margin: 10px 0;
 }
@@ -43,6 +42,16 @@ p {
 
 img {
   width: 100%;
+}
+.ut_section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 350px;
+}
+@media only screen and (max-width: 600px) {
+  .ut_section{
+    height: 450px;
+  }
 }
 
 code,
@@ -396,3 +405,120 @@ pre {
 .openButton:hover {
   opacity: 1;
 }
+
+/* slider */
+#slider, .wrap, .slide-content{
+  margin:0;
+  padding:0;
+  font-family: Cabin, Helvetica, sans-serif;
+  width:100%;
+  height:100vh;
+  overflow-x:hidden;
+}
+.wrap{position:relative;}
+
+.slide{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0s;
+}
+
+.slide1{background-image: url('https://bhavnacorp.com/Uploads/banner/4hbanner_NewProject(6).jpg');}
+.slide2{background-image: url('https://bhavnacorp.com/Uploads/banner/5hbanner_NewProject(7).jpg');}
+.slide3{background-image: url('https://bhavnacorp.com/Uploads/banner/2hbanner_NewProject(5).jpg');}
+
+.slide-content{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span{
+  font-size: 5rem;
+  color:#fff;
+  background-color:rgba(0,0,0, .6);
+  padding:10px 20px;
+}
+
+.dir-control{
+  cursor: pointer;
+  position:absolute;
+  top:50%;
+  margin-top:-s30px;
+  width:0;
+  height:0;
+  z-index:5;
+}
+.fa {
+display:inline-block;
+ line-height: 50px;
+ width:50px;
+ height:56px;
+ color:white;
+ text-align: center;
+ vertical-align: bottom;
+}
+
+#dir-control-left{
+  left:0;
+  margin-left:30px;
+}
+
+#dir-control-right{
+  right:0;
+  margin-right:60px;
+}
+.slider-active{
+  visibility:hidden;
+  opacity:0;
+}
+.slide.slide-is-active{
+  visibility:visible;
+  opacity: 1;
+}
+
+.slide-transition{
+  transition: all .5s ease-in-out;
+}
+
+/* client logo */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 24%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 46%;
+    min-height: 160px;
+  }
+}
+
+/* event gallery */
