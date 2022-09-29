@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model WebApplication1.Models.EmployeeDetailsViewModel;
+
+<html>
+<head>
+    <title>@Model.Title</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>@Model.Header</h1>
+    </div>
+    <div>
+        Employee Id: @Model.employee.EmployeeID
+        Emp city: @Model.address.City
+    </div>
+    <div>
+        Employee Name: @Model.employee.Name
+    </div>
+    <div>
+        Employee Branch: @Model.employee.Branch
+    </div>
+    <div>
+        Employee Section: @Model.employee.Section
+    </div>
+    <div>
+        Employee Gender: @Model.employee.Gender
+    </div>
+    <hr />
+    <div>
+        Employee City: @Model.address.City
+    </div>
+    <div>
+        Employee State: @Model.address.State
+    </div>
+    <div>
+        Employee Pincode: @Model.address.Pincode
+    </div>
+    <div>
+        Employee Country: @Model.address.Country
+    </div>
+</body>
+</html>

@@ -1,6 +1,4 @@
 ﻿
-
-
 * {
     box-sizing: border-box !important;
 }
@@ -754,4 +752,91 @@ ul.cont li {
 .row {
     margin-right: 0px !important;
     margin-left: 0px !important;
+}
+.logo {
+    max-width: 25%;
+}
+
+/*services*/
+.price-innerdetail h5 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.price-innerdetail p {
+    font-size: 50px;
+}
+
+.detail-pricing {
+    border-bottom: 1px solid;
+    padding: 30px 0 30px 0;
+}
+
+    .detail-pricing .float-left {
+        padding: 0 0 0 40px;
+    }
+
+        .detail-pricing .float-left i {
+            position: absolute;
+            left: 0;
+            font-size: 20px;
+        }
+
+    .detail-pricing span {
+        display: inline-block;
+        position: relative;
+        font-weight: 400;
+    }
+
+.wrap-price {
+    background: rgba(32, 33, 36, .1);
+    padding: 50px 20px 50px;
+    border-radius: 10px;
+}
+
+.center-wrap {
+    background: #070707;
+    color: #fff;
+}
+section#price-section {
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+/*pop up*/
+#abc {
+    width: 100%;
+    height: 100%;
+    opacity: .95;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;
+    background-color: #313131;
+    overflow: auto
+}
+img#close {
+    position: absolute;
+    right: -14px;
+    top: -14px;
+    cursor: pointer
+}
+
+div#popupContact {
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    margin-left: -202px;
+    font-family: 'Raleway',sans-serif
+}
+
+.pop-up-form {
+    max-width: 300px;
+    min-width: 250px;
+    padding: 10px 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: raleway;
+    background-color: #fff
 }

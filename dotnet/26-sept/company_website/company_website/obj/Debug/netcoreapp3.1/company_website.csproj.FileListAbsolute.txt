@@ -38,3 +38,4 @@ C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-sept\company_website\company_
 C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-sept\company_website\company_website\obj\Debug\netcoreapp3.1\company_website.csproj.CopyComplete
 C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-sept\company_website\company_website\obj\Debug\netcoreapp3.1\Razor\Views\Company\About.cshtml.g.cs
 C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-sept\company_website\company_website\obj\Debug\netcoreapp3.1\Razor\Views\Company\Services.cshtml.g.cs
+C:\Users\Utkarsh.gupta\source\training-1\dotnet\26-sept\company_website\company_website\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
