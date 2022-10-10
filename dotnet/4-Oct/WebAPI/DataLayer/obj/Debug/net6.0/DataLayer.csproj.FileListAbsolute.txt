@@ -1,0 +1,14 @@
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\bin\Debug\net6.0\DataLayer.deps.json
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\bin\Debug\net6.0\DataLayer.runtimeconfig.json
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\bin\Debug\net6.0\DataLayer.dll
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\bin\Debug\net6.0\DataLayer.pdb
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\obj\Debug\net6.0\DataLayer.csproj.AssemblyReference.cache
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\obj\Debug\net6.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfoInputs.cache
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfo.cs
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CoreCompileInputs.cache
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\obj\Debug\net6.0\DataLayer.dll
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\obj\Debug\net6.0\refint\DataLayer.dll
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\obj\Debug\net6.0\DataLayer.pdb
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\obj\Debug\net6.0\DataLayer.genruntimeconfig.cache
+D:\Training Assignments\29-Sep Task\WebAPI\DataLayer\obj\Debug\net6.0\ref\DataLayer.dll
